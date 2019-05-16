@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "9.0"
 
-  s.source_files = 'XiaoDePods/Classes/**/*'
+  s.source_files = 'XiaoDePods/Classes', 'Classes/**/*.{swift,h,m,mm}'
   
   # s.resource_bundles = {
   #   'XiaoDePods' => ['XiaoDePods/Assets/*.png']
