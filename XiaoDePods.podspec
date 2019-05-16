@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoDePods'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'XiaoDePods was written for Cocoapods testing'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "9.0"
 
-  s.source_files = 'XiaoDePods/Classes', 'Classes/**/*.{swift,h,m,mm}'
+  s.source_files = 'XiaoDePods/Classes/Timer/*.{swift}', 'XiaoDePods/Classes/Extension/Foundation+Extension/*.{swift}', 'XiaoDePods/Classes/Extension/UIKit+Extension/*.{swift}'
   
   # s.resource_bundles = {
   #   'XiaoDePods' => ['XiaoDePods/Assets/*.png']
