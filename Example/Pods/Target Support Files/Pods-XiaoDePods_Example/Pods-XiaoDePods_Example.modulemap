@@ -1,0 +1,6 @@
+framework module Pods_XiaoDePods_Example {
+  umbrella header "Pods-XiaoDePods_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

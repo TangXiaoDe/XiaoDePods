@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XiaoDePods_Example' do
+  pod 'XiaoDePods', :path => '../'
+
+  target 'XiaoDePods_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
